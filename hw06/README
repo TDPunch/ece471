@@ -1,0 +1,23 @@
+ECE471 HW#6 -- Fall 2019
+
+Name: Tyler Punch
+
+
+5. My something cool is displaying my first and last name blinking on and off.
+
+6.
+ a). No it does not implement the full i2c protocol. This assignments code 
+does not have us set a slave device.
+ b). The only error that I could see that I didn't check for in my code 
+was checking the return value of the lseek function to ensure the rewind 
+happened.
+
+7.
+ a). Declare it static.
+ b). Becuase we downloaded the modules for I2C. Or the RPI linux kernel on
+the pi comes pre-loaded with with that knowledge.
+
+8.
+ a). m2708_fb DMA
+ b). This utility would be useful when running an operation that requires a
+yes or no answer to continue running.

@@ -1,0 +1,24 @@
+ECE471 Fall 2019 -- HW7
+
+Name: Tyler Punch
+
+4. Describe your something cool: I altered the delay between reads to 5 
+seconds and check if the temperature has increased by 2 degrees in that span 
+of time and if so then the temperature has chnaged enough that a message
+is displayed alerting the user of interferance.
+
+
+5. a. Hard real-time, brakes will save your life.
+   b. Soft real-time, doesn't matter if it takes 2 seconds result still the same.
+   c. Firm real-time. if not maintained video will be useless.
+   d. One disadvantage is SPI requires more wires. 
+   e. One advantage is that it is potentially faster, being full-duplex
+   f. No the temperature sensor is unable to transmit current that far 
+   g. Linux has unknown overhead timing so real-time operation can not be garunteed.
+
+6. a. Nothing, it's a blackhole directory so anything that's written there just
+dissapears.
+   b. you get a write error: no space left.
+   c. It could be useful to initialize data storage.
+   d. I would be very confident in saying it contains random numbers.
+

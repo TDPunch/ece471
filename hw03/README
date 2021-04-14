@@ -1,0 +1,34 @@
+ECE 471 Fall 2019 -- Homework 3
+
+Name: Tyler Punch
+
+Answer to Question #3a:
+
+#1 Adjust pointer to the end of the buffer
+
+#2
+
+Describe your something cool: For my something cool I made the count backwards
+from 15 to 0.
+
+Answer to Question #7:
+
+a. hello_world = 628 / hello_world.thumb = 608 / hello_world.thumb2 = 612
+It can be observed that the thumb executables are slightly smaller than the
+arm assembly executable.
+
+b. hello_world (HW 2) = 5544. All assembly executables are significantly smaller
+than the c executable from HW 2 even though the code density was much smaller in HW 2 
+ 
+c. I would want to use thumb assembly language because it is one tenth the size
+of C. If space is a concern then thumb assembly would ensure I am using less space.
+
+d. C was much easier for me to write, and a lot faster. My experience with assembly
+is lacking so it's very hard for me to understand assembly whereas I have done
+loads of work in c/c++ so doing a simple hello_world program was child play.
+
+Answer to Question #8a: There is very clearly a bug in cal 9 1752. Im assuming
+since Linux wasnt around until the 1970's that due to an issue with memory 
+that those 12 days went missing. Im not really sure exactly how this occured but 
+those 12 days seemed to have just dissapeared. 
+

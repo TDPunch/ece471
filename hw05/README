@@ -1,0 +1,29 @@
+ECE471 HW5 -- Fall 2019
+
+Name: Tyler Punch
+
+
+7. My something cool is making the ECE471 message scroll from left to right.
+
+8.
+ a). The part of the Raspberry Pi hardware in charge of the inital boot 
+process is the is the Videocore or GPU. The GPU loads and executes the 
+first stage of the boot process from Read Only Memory (ROM). ARM based
+embedded systems do not have the same boot process. ARM systems use 
+a software boot loader called uBoot instead.
+
+ b). The /boot partition is a FAT32 filesystem because it works on
+most machines. The RPi boot firmware is smart enough to mount a FAT 
+partition.
+
+ c). The generic name for the program responsible for loading the OS
+kernel into memory and running it is bootcode.bin.
+
+ d). Becuase addresses 0-2 and 0x78-0x7F are reserved addresses.
+
+9.
+ a). There are 131 lines in the display_final.c file 
+ b). There are 77 lines in the diff file.
+
+
+

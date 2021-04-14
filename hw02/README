@@ -1,0 +1,25 @@
+ECE471 Fall 2019, HW#2
+
+Name: Tyler Punch
+
+Describe your "Something Cool":	My something cool is printing 
+the number of lines based on command line input and each 
+iteration prints in a different color.
+
+Answers to homework questions in Part7:
+
+a. If you want to learn more about the ls program you would
+run the command man ls. This opens the manual page for the ls
+function.
+
+b. The -a option on the ls program will force it to show all
+entries in the current directories, even the ones containing
+a (.). Normally ls does not show these entries.
+
+c. One reason why Linux is used in embedded system design is
+becuase the Linux OS is open source. This means that it is completly
+free for everyone and source code is readily available.
+
+d. I currently have my pi connected to my TV at home with a USB keyboard
+and wireless USB mouse. I'm connected to my at home wifi network
+and that is how I downloaded the homework 2 file.

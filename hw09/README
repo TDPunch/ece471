@@ -1,0 +1,29 @@
+ECE471 HW9 -- Fall 2019
+
+Name: Tyler Punch
+
+
+4. Test inputs:
+	a) 72.9, I used this value to test case a.
+	b) 4.9, I used this to ensure leading zeroes were suppressed.
+	c) -10.5, I used this to test case b with value < -10.0.
+	d) -100.0, I used this to test the invalid temp case.
+	e) 893.5, I used this to test case c.
+	NOTE: I used a few other test cases because I added rounding
+	for accuracy and another case b test with value > -9.9 these are
+	found in test_display.c.
+
+7:
+  a. Mars probe failed due to failure to convert units.
+  b. Becuase it's good practice to do that so if ever doing anything important
+you have the protocol drilled into your head. It's also good experience so
+can go back and possibly use that code to help you in the future. Not to 
+mention it would be helpful for others to read and understand your code
+if you like to go on stack overflow.
+
+8.
+  a. Changed date to February 29, 2020.
+  b. Becuase date is out of range.
+  c. Becuase changing the filestamp is very simple.
+
+

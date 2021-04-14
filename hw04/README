@@ -1,0 +1,39 @@
+ECE 471 Fall 2019 -- Homework 4
+
+Name: Tyler Punch
+
+NOTE: Im curious, my delay after export had to be longer for GPIO 18 then 
+it did for GPIO 17. Any idea why that is?
+
+What you did for something cool (if applicable): For something cool I programmed
+GPIO pin 18 to transmit a message in morse code. The message it transmits is
+ECE471.
+
+
+Answers to Question #5:
+
+a. It is good to use usleep() over a busy loop becuase a busy loop wastes clock 
+cycles whereas usleep() does not.
+
+b. Having an OS makes life easier when programming GPIO's because you don't have
+to configure several individual bits for clocks and modes etc. With an OS all
+that has to be done is export the PIN and write to two files to get it to do what
+you want. In this way the code is a lot easier to understand too since you
+write "in" or "out" for an input or output as opposed to some arbitrary 
+hexidecimal number to set individual bits. 
+
+c. One limitation the OS imposes is that after exporting you have to delay a 
+short time before trying to write anything to that GPIO pin. The OS needs time
+to export the PINs. 
+
+Answers to Question #6:
+
+a. Machine type: Raspberry Pi 3 Model B Plus Rev 1.3
+
+b. Kernel version: Linux raspberrypi 4.19.66-v7+ #1253 SMP
+
+c. Free Disk space: 8.4GB of available space
+
+d. The -h option of the df command makes the output of df human readable.
+To elaborate it outputs the space values in ways we as humans are used to 
+reading them i.e. GB, MB, KB etc.
